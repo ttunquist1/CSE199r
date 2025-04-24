@@ -11,3 +11,18 @@ File Parsing	python-docx, pdfminer.six, PyMuPDF
 Automation	    Puppeteer (JS) or Selenium (Python)
 DB (if needed)	SQLite or Firebase
 Deployment	    Vercel (frontend) + Render or Railway (backend)
+
+
+Stock Trade Bot
+
+possible languages
+
+Backend & Bot Logic: Python (Pandas, NumPy, TA-Lib or ta, Alpaca API)
+
+Frontend Dashboard:  React or Next.js
+
+Database:            PostgreSQL or SQLite for trade history/logs
+
+Visualization:       Plotly.js or Chart.js
+
+Deployment:          Docker + Railway/Vercel (or run locally)

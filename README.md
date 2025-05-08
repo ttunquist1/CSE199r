@@ -26,3 +26,22 @@ Database:            PostgreSQL or SQLite for trade history/logs
 Visualization:       Plotly.js or Chart.js
 
 Deployment:          Docker + Railway/Vercel (or run locally)
+
+
+
+notes:
+
+task estimation and subdivision
+sylabus
+basic technical knowledge
+
+task estimation and subdivision:
+
+Top-down
+using similar past projects as a good guess
+
+bottom-up
+breaking down the project into small tasks and adding up the time
+
+PERT method
+O+4M+P -> Combines optimistic most likely and pessemistic estimates

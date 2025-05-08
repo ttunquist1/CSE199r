@@ -1,4 +1,5 @@
 from docx import Document
+import time
 
 def read_docx(file_path):
     """
@@ -32,3 +33,22 @@ def get_file():
     )
 
     return file_path if file_path else None
+
+
+
+def main():
+    print("Welcome to the Resume Reader!")
+    print("Please select a .docx file to read.")
+
+    time.sleep(1)
+
+    file_path = get_file()
+    if file_path:
+        content = read_docx(file_path)
+        print("File content:")
+        print(content)
+    else:
+        print("No file selected.")
+
+if __name__ == "__main__":
+    main()

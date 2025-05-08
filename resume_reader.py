@@ -16,28 +16,19 @@ def read_docx(file_path):
     return '\n'.join(full_text)
 
 
+def get_file():
+    """
+    Prompts the user to select a .docx file from file explorer and returns its path.
+    """
+    import tkinter as tk
+    from tkinter import filedialog
 
+    root = tk.Tk()
+    root.withdraw()  # Hide the root window
 
-print(read_docx('Resume_of_Thomas_Tunquist.docx'))
+    file_path = filedialog.askopenfilename(
+        title="Select a .docx file",
+        filetypes=[("Word files", "*.docx")]
+    )
 
-
-
-
-
-
-
-
-
-
-
-
-# document= Document('Resume_of_Thomas_Tunquist.docx')
-
-
-# for para in document.paragraphs:
-#     print(para.text)
-
-# for table in document.tables:
-#     for row in table.rows:
-#         for cell in row.cells:
-#             print(cell.text)
+    return file_path if file_path else None

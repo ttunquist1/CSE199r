@@ -61,8 +61,8 @@ project management tools
         Trello:
         Asana:
         ClickUp:
-        Wrike: like a spreedsheet
+        Wrike:    like a spreedsheet
         Paymo:
         Airtable:
-        Jira: for developers
-        Hive: AI features
+        Jira:     for developers
+        Hive:     AI features

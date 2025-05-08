@@ -27,7 +27,9 @@ Visualization:       Plotly.js or Chart.js
 
 Deployment:          Docker + Railway/Vercel (or run locally)
 
-
+daily standup
+    What have I done
+    What will I do
 
 notes:
 
@@ -45,3 +47,22 @@ breaking down the project into small tasks and adding up the time
 
 PERT method
 O+4M+P -> Combines optimistic most likely and pessemistic estimates
+
+
+5/8 agenda
+project management tools
+    track who does what
+        use agile to track
+    track bugs    
+    version control
+        useful for when there are a lot of people working on same project
+
+    project management systems
+        Trello:
+        Asana:
+        ClickUp:
+        Wrike: like a spreedsheet
+        Paymo:
+        Airtable:
+        Jira: for developers
+        Hive: AI features

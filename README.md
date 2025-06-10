@@ -66,3 +66,33 @@ project management tools
         Airtable:
         Jira:     for developers
         Hive:     AI features
+
+
+5/20/25
+Iron Triangle
+    Scope  Time  Cost  ==> Quality
+
+5/27/25
+software testing
+    testing axioms
+        the rule to live by, statement of truth
+
+        you cannot test everything in every case
+        your code will never we bug free, tests are not perfect
+        where one bug is, more are
+    testing pyramid
+        unit tests
+        component tests
+        integreation tests
+        system tests
+        manual tests
+    nonfunctional testing
+        all the meta info
+            can it be hacked
+            can it be scaled
+            is it fast
+
+6/10/25
+more than one way to be sucessfull
+starting your own company is lot of risk and lot of reward.
+AI

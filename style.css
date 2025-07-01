@@ -1,15 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    text-align: center;
+    justify-content: center;
+    background-color: #254f9c;
+    width: 100%;
+    height: 75px;
+    padding-top: 1em;
+    color: beige;
+}
+
 main{
     display: grid;
     grid-template-columns: 2fr;
     justify-content: left;
     width: 750px;
-    margin-left: 100px;
+    margin-left: 200px;
+    margin-top: 25px;
 }
 
 .upload_resume{
     width: 300px;
     grid-column: 1/2;
     
+}
+
+#resumeUpload{
+    margin:50px;
+    color: white;
+}
+
+#resumeUpload::file-selector-button{
+    background-color: #254f9c;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    color: antiquewhite;
+    border-color: #111141;
+}
+
+#resumeUpload::file-selector-button:hover{
+    background-color: #204281;
 }
 
 .jobDesc{
@@ -24,4 +59,14 @@ main{
 #jobDesc{
     width: 400px;
     height: 200px;
+}
+
+#coverLetterOutput{
+    width: 500px;
+    height: 700px;
+}
+
+footer{
+    background-color: #254f9c;
+    color:antiquewhite;
 }

@@ -96,3 +96,54 @@ software testing
 more than one way to be sucessfull
 starting your own company is lot of risk and lot of reward.
 AI
+
+
+6/17/25
+networking overview
+    physical layer
+    data link layer
+    network layer
+        The IP
+        Internet Protocol was invented for post nuke communication
+    transport layer
+        TCP (Transmission Control Protocol)(RELIABLE) and UDP(User Datagram Protocol)(FASTER)
+    Session layer
+    Presentaion layer
+        encryption (SSL/TLS)
+        Data formatting, what does this thing mean??
+    Application layer
+        HTTP -the web browser
+        FTP  -file transfer
+        SMTP -email
+        DNS -make the ip adress easier to read. turns ip address into domain name.
+    
+    common network tools
+        ipconfig          ip addr show
+        ping
+        tracert           traceroute
+        nslookup
+        ssh/telnet
+        netstat -an
+        curl
+        wget
+        whois
+
+6/24/25
+    AI prompt engineering.
+        Context
+            The more you tell it, the more it will be able to help
+        Specificity
+            give it a detailed description
+            Give it structure
+            Give it Contraints
+        Hints
+            guide it the way you want, make it easy to know the direction
+        Iteration
+            Put time into it, don't one question it.
+
+7/1/25
+    Docker
+        allows linux stuff to be cool
+        can put entire program in container and share it easy
+        virtual operating system on laptop, super light running and nice.
+        Kubernetes: a container manager. Allow you to make multiple instances when needed.

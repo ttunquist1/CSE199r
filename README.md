@@ -147,3 +147,29 @@ networking overview
         can put entire program in container and share it easy
         virtual operating system on laptop, super light running and nice.
         Kubernetes: a container manager. Allow you to make multiple instances when needed.
+
+7/3/25
+    Environmental Variables/Shell SCripts
+        Path Variable: when on command line, will look through directory you are in, and then all locations where the software might be
+        Home: 
+        Temp: staches temporatry files for programs
+
+        Mac is basically Linux
+        CMD is cool
+        temprorary vs permanent
+        temporary are for current session only
+        permament are always present when app is started.
+        cd ~ takes you home
+        pwd is your directory
+
+        environments are cool. you can set it to be debug or not and that will help with stuff.
+
+        scripting: 
+
+7/8/25
+    Career and interview preparation
+        Misison is good on resume early on, but replace it with projects 
+        tailor resume for each job
+        highlight RELEVANT stuff
+        quantify achievements
+        mirror language of the job post

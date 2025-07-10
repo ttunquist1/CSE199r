@@ -8,12 +8,24 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.post('/analyze', async (req, res) => {
-  const { resumeText } = req.body;
+  const { resumeText, jobDescription } = req.body;
+
+  const prompt = `
+You are an AI resume assistant. Analyze the following resume and suggest improvements so it aligns better with the given job description.
+
+Job Description:
+${jobDescription}
+
+Resume:
+${resumeText}
+
+Your response should highlight changes or suggestions that would make this resume more appealing for the job.
+`;
 
   try {
     const response = await axios.post('http://localhost:11434/api/generate', {
       model: "llama3",
-      prompt: `You are to Analyze the users resume and improve upon it:\n\n${resumeText}`,
+      prompt: prompt,
       stream: false
     });
 

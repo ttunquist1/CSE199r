@@ -70,3 +70,8 @@ footer{
     background-color: #254f9c;
     color:antiquewhite;
 }
+
+.inputarea{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -51,21 +51,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateUI(sections);
 
-    // 🚀 Step 3: Send to Ollama backend
+    // ✅ Get job description input
+    const jobDescription = document.getElementById('jobDescription').value;
+
+    // ✅ Send resume + job description to backend
     fetch('http://localhost:3000/analyze', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({ resumeText: text })
+      body: JSON.stringify({
+        resumeText: text,
+        jobDescription: jobDescription
+      })
     })
       .then(res => res.json())
       .then(data => {
+        const aiOutputDiv = document.getElementById("aiOutput");
         if (data.reply) {
-          const aiOutputDiv = document.getElementById("aiOutput");
           aiOutputDiv.textContent = data.reply;
         } else {
-          console.warn("No AI reply received.");
+          aiOutputDiv.textContent = "No AI response received.";
         }
       })
       .catch(err => {
